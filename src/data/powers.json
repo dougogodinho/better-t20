@@ -7,7 +7,7 @@
   },
   "Especialista": {
     "name": "Especialista",
-    "description": "Escolha um número de perícias treinadas igual ao seu bônus de Inteligência (mínimo 1). Ao fazer um teste de uma dessas perícias, você pode gastar 1 PM para dobrar seu bônus de treinamento. Você não pode usar esta habilidade em testes de ataque.",
+    "description": "Escolha um número de perícias treinadas igual ao seu bônus de Inteligência (mínimo 1), exceto bônus temporários. Ao fazer um teste de uma dessas perícias, você pode gastar 1 PM para dobrar seu bônus de treinamento. Você não pode usar esta habilidade em testes de ataque.",
     "type": "classe",
     "subtype": "Ladino"
   },
@@ -19,7 +19,7 @@
   },
   "Ataque Reflexo": {
     "name": "Ataque Reflexo",
-    "description": "Se um alvo em alcance de seus ataques corpo a corpo ficar desprevenido ou se mover voluntariamente para fora do seu alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo como uma reação. Pré-requisito: Des 13.",
+    "description": "Se um alvo em alcance de seus ataques corpo a corpo ficar desprevenido ou se mover voluntariamente para fora do seu alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo como uma reação. Apenas uma vez por alvo a cada rodada. Pré-requisito: Des 13.",
     "type": "classe",
     "subtype": "Guerreiro"
   },
@@ -43,7 +43,7 @@
   },
   "Fascinar": {
     "name": "Fascinar",
-    "description": "Você pode gastar uma ação padrão e 1 PM para fascinar uma criatura a sua escolha em alcance curto. Faça um teste de Atuação oposto pelo teste de Vontade da criatura. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Se a criatura passar, fica imune a este efeito por um dia.",
+    "description": "Você pode gastar uma ação padrão e 1 PM para fascinar uma criatura a sua escolha em alcance curto. Faça um teste de Atuação oposto pelo teste de Vontade da criatura. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Um alvo hostil ou envolvido em combate recebe +5 no teste de resistência e tem direito a um novo teste por rodada, sempre que você se concentrar Se a criatura passar, fica imune a este efeito por um dia.",
     "type": "classe",
     "subtype": "Bardo"
   },
@@ -85,13 +85,13 @@
   },
   "Inspirar Confiança": {
     "name": "Inspirar Confiança",
-    "description": "Sua presença faz as pessoas darem o melhor de si. Você pode gastar 2 PM para fazer um aliado em alcance curto rolar novamente um teste recém realizado.",
+    "description": "Sua presença faz as pessoas darem o melhor de si. Quando um aliado em alcance curto faz um teste, você pode gastar 2 PM para fazer com ele possa rolar esse teste novamente.",
     "type": "classe",
     "subtype": "Nobre"
   },
   "Aparar": {
     "name": "Aparar",
-    "description": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para apará-lo. Faça um teste de ataque. Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma leve ou ágil. Pré-requisito: Esgrimista.",
+    "description": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para apará-lo. Faça um teste de ataque com um bônus igual ao seu nível. Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma leve ou ágil. Pré-requisito: Esgrimista.",
     "type": "classe",
     "subtype": "Bucaneiro"
   },
@@ -121,7 +121,7 @@
   },
   "Evasão": {
     "name": "Evasão",
-    "description": "A partir do 2º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+    "description": "A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
     "type": "classe",
     "subtype": "Bucaneiro"
   },
@@ -181,7 +181,7 @@
   },
   "Mão na Boca": {
     "name": "Mão na Boca",
-    "description": "Você recebe +2 em testes de agarrar. Quando faz um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada. Pré-requisito: treinado em Luta.",
+    "description": "Você recebe +2 em testes de agarrar. Quando acerta um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada. Pré-requisito: treinado em Luta.",
     "type": "classe",
     "subtype": "Ladino"
   },
@@ -223,7 +223,7 @@
   },
   "Mordida": {
     "name": "Mordida",
-    "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
+    "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
     "type": "racial",
     "subtype": "Trog"
   },
@@ -247,7 +247,7 @@
   },
   "Cura Gentil": {
     "name": "Cura Gentil",
-    "description": "Você adiciona seu bônus de Carisma (mínimo +1) aos PV restaurados por suas magias de cura.",
+    "description": "Você adiciona seu bônus de Carisma (mínimo +1) aos PV restaurados por suas habilidades mágicas de cura.",
     "type": "concedido",
     "subtype": "Vida"
   },
@@ -265,7 +265,7 @@
   },
   "Kiai Divino": {
     "name": "Kiai Divino",
-    "description": "Quando faz um ataque corpo a corpo, você pode pagar 2 PM. Se acertar o ataque, causa dano máximo.",
+    "description": "Quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo.",
     "type": "concedido",
     "subtype": "Samurai"
   },
@@ -313,7 +313,7 @@
   },
   "Flagelo dos Mares": {
     "name": "Flagelo dos Mares",
-    "description": "Você aprende e pode lançar Amedrontar (atributo-chave Carisma). Esta não é uma habilidade mágica e provém de sua capacidade de incutir medo em seus inimigos. Pré-requisito: treinado em Intimidação.",
+    "description": "Você aprende e pode lançar Amedrontar (atributo-chave Carisma) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um bardo de seu nível teria. Esta não é uma habilidade mágica e provém de sua capacidade de incutir medo em seus inimigos. Pré-requisito: treinado em Intimidação.",
     "type": "classe",
     "subtype": "Bucaneiro"
   },
@@ -337,7 +337,7 @@
   },
   "Mãos Rápidas": {
     "name": "Mãos Rápidas",
-    "description": "Ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre. Pré-requisito: Des 15, treinado em Ladinagem.",
+    "description": "Uma vez por rodada, ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre. Pré-requisito: Des 15, treinado em Ladinagem.",
     "type": "classe",
     "subtype": "Ladino"
   },
@@ -373,13 +373,13 @@
   },
   "Lógica Gnômica": {
     "name": "Lógica Gnômica",
-    "description": "Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para substituir o modificador de atributo utilizado por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força.",
+    "description": "Engenhosidade. Quando faz um teste de perícia, você pode gastar 2 PM para somar seu modificador de Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM",
     "type": "racial",
     "subtype": "Kliren"
   },
   "Fúria": {
     "name": "Fúria",
-    "description": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar a perícia Furtividade ou lançar magias). A cada cinco níveis, pode gastar +2 PM para aumentar os bônus em +1.A Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito (ataque, habilidade, magia...) hostil.",
+    "description": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar a perícia Furtividade ou lançar magias). A cada cinco níveis, pode gastar +1 PM para aumentar os bônus em +1.A Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito (ataque, habilidade, magia...) hostil.",
     "type": "classe",
     "subtype": "Bárbaro"
   },
@@ -451,7 +451,7 @@
   },
   "Faro": {
     "name": "Faro",
-    "description": "Você tem olfato apurado. Você não fica desprevenido e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver.",
+    "description": "Você tem olfato apurado. Contra inimigos que não possa ver, a criatura não fica desprevenida e camuflagem total lhe causa apenas 20% de chance de falha em alcance curto.",
     "type": "racial",
     "subtype": "Minotauro"
   },
@@ -493,7 +493,7 @@
   },
   "Ambidestria": {
     "name": "Ambidestria",
-    "description": "Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 15.",
+    "description": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 15.",
     "type": "classe",
     "subtype": "Guerreiro"
   },
@@ -529,7 +529,7 @@
   },
   "Chuva de Lâminas": {
     "name": "Chuva de Lâminas",
-    "description": "Quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária. Pré-requisito: Des 19, Ambidestria, 12º nível de caçador.",
+    "description": "Quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária, uma vez por rodada. Pré-requisito: Des 19, Ambidestria, 12º nível de caçador.",
     "type": "classe",
     "subtype": "Caçador"
   },
@@ -595,7 +595,7 @@
   },
   "Bênção da Justiça: Égide Sagrada": {
     "name": "Bênção da Justiça: Égide Sagrada",
-    "description": "Você pode gastar uma ação de movimento e 2 PM para recobrir de energia seu escudo ou símbolo sagrado. Até o fim da cena, você e todos os aliados adjacentes recebem um bônus na Defesa igual ao seu bônus de Carisma. A partir do 11º nível, você pode gastar 5 PM para receber o mesmo bônus num teste de resistência contra uma magia recém lançada contra você. Se você passar no teste de resistência e a magia tiver você como único alvo, ela é revertida de volta ao conjurador (que se torna o novo alvo da magia; todas as demais características da magia, incluindo CD do teste de resistência, se mantêm).",
+    "description": "Você pode gastar uma ação de movimento e 2 PM para recobrir de energia seu escudo ou símbolo sagrado. Até o fim da cena, você e todos os aliados adjacentes recebem um bônus na Defesa igual ao seu bônus de Carisma. A partir do 11º nível, você pode gastar 5 PM para rolar novamente um teste de resistência contra uma magia recém lançada contra você. Se você passar no teste de resistência e a magia tiver você como único alvo, ela é revertida de volta ao conjurador (que se torna o novo alvo da magia; todas as demais características da magia, incluindo CD do teste de resistência, se mantêm).",
     "type": "classe",
     "subtype": "Paladino"
   },
@@ -655,13 +655,13 @@
   },
   "Dentes Afiados": {
     "name": "Dentes Afiados",
-    "description": "Você recebe uma arma natural de mordida (dano 1d4, crítico x2, corte). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
+    "description": "Você recebe uma arma natural de mordida (dano 1d4, crítico x2, corte). Uma vez por rodada, quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
     "type": "geral",
     "subtype": "Tormenta"
   },
   "Baluarte": {
     "name": "Baluarte",
-    "description": "Você pode gastar 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2.A partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto.",
+    "description": "Quando sofre um ataque ou faz um teste de resistência, você pode gastar uma reação e 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2.A partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto.",
     "type": "classe",
     "subtype": "Cavaleiro"
   },
@@ -685,7 +685,7 @@
   },
   "Arma Secundária Grande": {
     "name": "Arma Secundária Grande",
-    "description": "Você pode usar duas armas de uma mão com o poder Estilo de Duas Armas. Pré-requisito: Estilo de Duas Armas.",
+    "description": "Você pode empunhar duas armas de uma mão com o poder Estilo de Duas Armas. Pré-requisito: Estilo de Duas Armas.",
     "type": "geral",
     "subtype": "Combate"
   },
@@ -697,7 +697,7 @@
   },
   "Preparar Poção": {
     "name": "Preparar Poção",
-    "description": "Você pode usar a perícia Ofício (alquimia) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e a página 327 para a regra de poções. Pré-requisitos: Habilidade de classe Magias, treinado em Ofício (alquimia).",
+    "description": "Você pode usar a perícia Ofício (alquimia) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 319 e 327 para a regra de poções. Pré-requisitos: Habilidade de classe Magias, treinado em Ofício (alquimia).",
     "type": "geral",
     "subtype": "Magia"
   },
@@ -733,7 +733,7 @@
   },
   "Percepção Temporal": {
     "name": "Percepção Temporal",
-    "description": "Você pode gastar 3 PM para adicionar seu bônus de Sabedoria (mínimo +1, limitado por seu nível) a seus ataques, Defesa e testes de Reflexos até o fim da cena.",
+    "description": "Você pode gastar 3 PM para adicionar seu bônus de Sabedoria (mínimo +1, limitado por seu nível não cumulativo com efeitos que somam o modificador deste atributo) a seus ataques, Defesa e testes de Reflexos até o fim da cena.",
     "type": "concedido",
     "subtype": "Tormenta"
   },
@@ -853,7 +853,7 @@
   },
   "Golpe Pessoal": {
     "name": "Golpe Pessoal",
-    "description": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Pré-requisito: 5º nível de guerreiro.",
+    "description": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo (cumulativo mesmo no caso de reduções); a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Você não pode gastar mais PM em golpes pessoais em uma mesma rodada do que seu limite de PM para este poder Pré-requisito: 5º nível de guerreiro.",
     "type": "classe",
     "subtype": "Guerreiro"
   },
@@ -931,7 +931,7 @@
   },
   "Abençoar Arma": {
     "name": "Abençoar Arma",
-    "description": "Você se torna proficiente na arma preferida de sua divindade. Se estiver empunhando essa arma, pode gastar uma ação de movimento e 3 PM para infundi-la com poder divino. Até o final da cena, a arma emite luz dourada ou púrpura (como uma tocha) e você pode usar seu modificador de Sabedoria em testes de ataque e rolagens de dano com ela (em vez do modificador padrão). Além disso, o dano da arma aumenta em um passo e ela é considerada mágica para propósitos de resistência a dano.",
+    "description": "Você se torna proficiente na arma preferida de sua divindade. Se estiver empunhando essa arma, pode gastar uma ação de movimento e 3 PM para infundi-la com poder divino. Até o final da cena, a arma emite luz dourada ou púrpura (como uma tocha) e você pode usar seu modificador de Sabedoria em testes de ataque e rolagens de dano com ela (em vez do modificador padrão) não cumulativo com efeitos que somam o modificador deste atributo. Além disso, o dano da arma aumenta em um passo e ela é considerada mágica para propósitos de resistência a dano.",
     "type": "classe",
     "subtype": "Clérigo"
   },
@@ -949,7 +949,7 @@
   },
   "Natureza Esquelética": {
     "name": "Natureza Esquelética",
-    "description": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, habilidades mágicas de cura causam dano a você e você não se beneficia de itens ingeríveis (comidas, poções etc.), mas dano de trevas recupera seus PV.",
+    "description": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, habilidades mágicas de cura causam dano a você e você não se beneficia de itens itens da categoria alimentação(comidas, etc.), mas dano de trevas recupera seus PV.",
     "type": "racial",
     "subtype": "Osteon"
   },
@@ -1015,7 +1015,7 @@
   },
   "Natureza Venenosa": {
     "name": "Natureza Venenosa",
-    "description": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja empunhando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).",
+    "description": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).",
     "type": "racial",
     "subtype": "Medusa"
   },
@@ -1033,7 +1033,7 @@
   },
   "Roubo de Mana": {
     "name": "Roubo de Mana",
-    "description": "Quando você causa dano com um ataque furtivo em uma criatura, a criatura perde 1 ponto de mana para cada 1d6 de dano de seu ataque furtivo. Você recebe PM temporários iguais aos PM que a criatura perder. Você só pode usar este poder uma vez por cena contra cada criatura específica. Pré-requisito: Truque Mágico, 7º nível de ladino.",
+    "description": "Quando você causa dano com um ataque furtivo em uma criatura, a criatura perde 1 PM para cada 1d6 de dano de seu ataque furtivo e você recebe a mesma quantidade de PM temporários. Você recebe PM temporários iguais aos PM que a criatura perder. Você só pode usar este poder uma vez por cena contra cada criatura específica. Pré-requisito: Truque Mágico, 7º nível de ladino.",
     "type": "classe",
     "subtype": "Ladino"
   },
@@ -1057,7 +1057,7 @@
   },
   "Paródia": {
     "name": "Paródia",
-    "description": "Uma vez por rodada, quando vê alguém lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia.",
+    "description": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia.",
     "type": "classe",
     "subtype": "Bardo"
   },
@@ -1321,7 +1321,7 @@
   },
   "Chassi": {
     "name": "Chassi",
-    "description": "Seu corpo artificial é resistente, mas rígido. Você recebe +2 na Defesa, mas possui penalidade de armadura –2 e seu deslocamento é 6m. Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi).",
+    "description": "Seu corpo artificial é resistente, mas rígido. Você recebe +2 na Defesa, mas possui penalidade de armadura –2 e seu deslocamento é 6m. Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi).",
     "type": "racial",
     "subtype": "Golem"
   },
@@ -1447,7 +1447,7 @@
   },
   "Postura de Combate: Muralha Intransponível": {
     "name": "Postura de Combate: Muralha Intransponível",
-    "description": "Para assumir esta postura você precisa estar empunhandonhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m.",
+    "description": "Para assumir esta postura você precisa estar empunhandonhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m.",
     "type": "classe",
     "subtype": "Cavaleiro"
   },
@@ -1549,7 +1549,7 @@
   },
   "Golpe Mágico": {
     "name": "Golpe Mágico",
-    "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. PM temporários desaparecem no final da cena. Pré-requisito: Esgrima Mágica.",
+    "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários cumulativos. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. PM temporários desaparecem no final da cena. Pré-requisito: Esgrima Mágica.",
     "type": "classe",
     "subtype": "Bardo"
   },
@@ -1567,13 +1567,13 @@
   },
   "Evasão Aprimorada": {
     "name": "Evasão Aprimorada",
-    "description": "No 10º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+    "description": "No 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
     "type": "classe",
     "subtype": "Bucaneiro"
   },
   "Totem Espiritual": {
     "name": "Totem Espiritual",
-    "description": "Você soma seu bônus de Sabedoria no seu total de pontos de mana. Escolha um animal totêmico (veja o quadro). Você pode lançar uma magia definida pelo animal escolhido (atributo-chave Sabedoria). Pré-requisitos: Sab 13, 4º nível de bárbaro.A seguir está uma lista de animais venerados por tribos bárbaras do mundo.Coruja. A sábia coruja guia seus discípulos. Você pode lançar Orientação.Corvo. Um seguidor do corvo enxerga além do véu. Você pode lançar Visão Mística.Falcão. Sempre atento, o falcão permite que você lance Detectar Ameaças.Grifo. O mais veloz dos animais, o grifo permite que você lance Primor Atlético.Lobo. O lobo é feroz e letal. Você pode lançar Concentração de Combate.Raposa. A sagaz raposa nunca está onde se espera. Você pode lançar Imagem Espelhada.Tartaruga. A tartaruga protege os seus. Você pode lançar Armadura ArcanaUrso. O vigoroso urso permite que você lance Vitalidade Fantasma.",
+    "description": "Você soma seu bônus de Sabedoria no seu total de pontos de mana. Escolha um animal totêmico (veja o quadro). Você aprende e pode lançar uma magia definida pelo animal escolhido (atributo-chave Sabedoria) e pode lançá-la mesmo em fúria”. Este poder é uma habilidade mágica. Pré-requisitos: Sab 13, 4º nível de bárbaro.A seguir está uma lista de animais venerados por tribos bárbaras do mundo.Coruja. A sábia coruja guia seus discípulos. Você pode lançar Orientação.Corvo. Um seguidor do corvo enxerga além do véu. Você pode lançar Visão Mística.Falcão. Sempre atento, o falcão permite que você lance Detectar Ameaças.Grifo. O mais veloz dos animais, o grifo permite que você lance Primor Atlético.Lobo. O lobo é feroz e letal. Você pode lançar Concentração de Combate.Raposa. A sagaz raposa nunca está onde se espera. Você pode lançar Imagem Espelhada.Tartaruga. A tartaruga protege os seus. Você pode lançar Armadura Arcana Urso. O vigoroso urso permite que você lance Vitalidade Fantasma e pode  usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um druida de seu nível.",
     "type": "classe",
     "subtype": "Bárbaro"
   },
@@ -1645,7 +1645,7 @@
   },
   "Missa: Superar as Limitações": {
     "name": "Missa: Superar as Limitações",
-    "description": "Você encoraja os ouvintes a superar suas próprias habilidades. Cada participante recebe +1d6 num único teste a sua escolha.",
+    "description": "Você encoraja os ouvintes a superar suas próprias habilidades. Cada participante recebe +1d6 num único teste a sua escolha e pode usá-lo mesmo após rolar o dado.",
     "type": "classe",
     "subtype": "Clérigo"
   },
@@ -1663,7 +1663,7 @@
   },
   "Arma Improvisada": {
     "name": "Arma Improvisada",
-    "description": "Ao usar armas improvisadas, você usa as estatísticas de seu ataque desarmado — bônus de ataque, margem de ameaça etc. — mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você passar, encontra uma arma improvisada. Armas improvisadassão frágeis; se você errar um ataque e o resultado do d20 for um número ímpar, a arma quebra.",
+    "description": "Para você, atacar com armas improvisadas conta como fazer um ataque desarmado, mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você passar, encontra uma arma improvisada. Armas improvisadassão frágeis; se você errar um ataque e o resultado do d20 for um número ímpar, a arma quebra.",
     "type": "classe",
     "subtype": "Lutador"
   },
@@ -1687,7 +1687,7 @@
   },
   "Frenesi": {
     "name": "Frenesi",
-    "description": "Se estiver em fúria e usar a ação atacar para fazer um ataque corpo a corpo, você pode gastar 2 PM para fazer um ataque adicional.",
+    "description": "Se estiver em fúria e usar a ação atacar para fazer um ataque corpo a corpo, você pode gastar 2 PM para fazer um ataque adicional uma vez por rodada.",
     "type": "classe",
     "subtype": "Bárbaro"
   },
@@ -1795,7 +1795,7 @@
   },
   "Disparo Rápido": {
     "name": "Disparo Rápido",
-    "description": "Se estiver usando uma arma de ataque à distância e gastar uma ação completa para atacar, você pode fazer um ataque adicional com ela (se puder recarregá-la como ação livre). Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 13, Estilo de Disparo ou Estilo de Arremesso.",
+    "description": "Se estiver usando uma arma de disparo e gastar uma ação completa para atacar, você pode fazer um ataque adicional com ela (se puder recarregá-la como ação livre). Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 13, Estilo de Disparo.",
     "type": "geral",
     "subtype": "Combate"
   },
@@ -1813,7 +1813,7 @@
   },
   "Membros extras": {
     "name": "Membros extras",
-    "description": "Você possui um par de patas insetoides que saem de suas costas, ombros ou flancos. Quando usa a ação atacar, pode gastar 2 PM para fazer um ataque corpo a corpo extra com cada um (dano 1d4, crítico x2, corte). Se possuir Ambidestria ou Estilo de Duas Armas, pode empunhar armas leves em suas patas insetoides (mas ainda precisa pagar 2 PM para atacar com elas e sofre a penalidade de –2 em todos os ataques).Pré-requisitos:quatro outros poderes da Tormenta.",
+    "description": "Você possui duas armas naturais de patas insetoides que saem de suas costas, ombros ou flancos. Uma vez por rodada, quando usa a ação atacar, pode gastar 2 PM para fazer um ataque corpo a corpo extra com cada um (dano 1d4, crítico x2, corte). Se possuir Ambidestria ou Estilo de Duas Armas, pode empunhar armas leves em suas patas insetoides (mas ainda precisa pagar 2 PM para atacar com elas e sofre a penalidade de –2 em todos os ataques).Pré-requisitos:quatro outros poderes da Tormenta.",
     "type": "geral",
     "subtype": "Tormenta"
   },
@@ -1927,7 +1927,7 @@
   },
   "Trespassar": {
     "name": "Trespassar",
-    "description": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance. O ataque adicional usa os mesmos valores de ataque e dano, mas os dados devem ser rolados novamente. Pré-requisito: Ataque Poderoso.",
+    "description": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance. Pré-requisito: Ataque Poderoso.",
     "type": "geral",
     "subtype": "Combate"
   },
@@ -1993,7 +1993,7 @@
   },
   "Julgamento Divino: Coragem": {
     "name": "Julgamento Divino: Coragem",
-    "description": "Você pode gastar 2 PM para inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. A criatura fica imune a efeitos de medo e ganha +2 em testes de ataque contra alvos de nível maior que o dela.",
+    "description": "Você pode gastar 2 PM para inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. A criatura fica imune a efeitos de medo e ganha +2 em testes de ataque contra alvos de o inimigo com o maior ND na cena.",
     "type": "classe",
     "subtype": "Paladino"
   },
@@ -2029,7 +2029,7 @@
   },
   "Armadilha: Arataca": {
     "name": "Armadilha: Arataca",
-    "description": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Acrobacia ou Atletismo (CD Sab).",
+    "description": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab).",
     "type": "classe",
     "subtype": "Caçador"
   },
@@ -2161,7 +2161,7 @@
   },
   "Criatura Artificial": {
     "name": "Criatura Artificial",
-    "description": "Voc&ecirc; &eacute; uma criatura do tipo construto. Recebe vis&atilde;o no escuro e imunidade a doen&ccedil;as, fadiga, sangramento, sono e venenos. Al&eacute;m disso, n&atilde;o precisa respirar, alimentar-se ou dormir. Por fim, n&atilde;o recupera pontos de vida por descanso e n&atilde;o se beneficia de habilidades de cura e itens inger&iacute;veis (comidas, po&ccedil;&otilde;es etc.). Voc&ecirc; precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PM por descanso em condi&ccedil;&otilde;es normais (golens n&atilde;o s&atilde;o afetados por condi&ccedil;&otilde;es boas ou ruins de descanso).",
+    "description": "Voc&ecirc; &eacute; uma criatura do tipo construto. Recebe vis&atilde;o no escuro e imunidade a doen&ccedil;as, fadiga, sangramento, sono e venenos. Al&eacute;m disso, n&atilde;o precisa respirar, alimentar-se ou dormir. Por fim, n&atilde;o recupera pontos de vida por descanso e n&atilde;o se beneficia de habilidades de cura e itens da categoria alimentação (comidas, etc.). Voc&ecirc; precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PM por descanso em condi&ccedil;&otilde;es normais (golens n&atilde;o s&atilde;o afetados por condi&ccedil;&otilde;es boas ou ruins de descanso).",
     "type": "racial",
     "subtype": "Golem"
   },
@@ -2197,7 +2197,7 @@
   },
   "Arma Sagrada": {
     "name": "Arma Sagrada",
-    "description": "Se estiver empunhando a arma preferida de seu deus, o dado de dano que você rola por Golpe Divino aumenta para d12. Pré-requisito: devoto de uma divindade.",
+    "description": "Quando usa Golpe Divino para atacar com a arma preferida de sua divindade, o dado de dano que você rola por Golpe Divino aumenta para d12. Pré-requisito: devoto de uma divindade.",
     "type": "classe",
     "subtype": "Paladino"
   },
@@ -2245,7 +2245,7 @@
   },
   "Armadilha: Rede": {
     "name": "Armadilha: Rede",
-    "description": "Todas as criaturas na área devem fazer um teste de Reflexos (CD Sab) para não ficarem enredadas. Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil.",
+    "description": "Ao contrário de outras armadilhas, nesta você escolhe quantas criaturas precisam estar na área para ativá-la. Todas as criaturas na área devem fazer um teste de Reflexos (CD Sab) para não ficarem enredadas. Uma vítima pode se libertar com uma ação padrão e um teste de Força ou Acrobacia (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil.",
     "type": "classe",
     "subtype": "Caçador"
   },
@@ -2257,13 +2257,13 @@
   },
   "Presença Paralisante": {
     "name": "Presença Paralisante",
-    "description": "Você soma seu bônus de Carisma em Iniciativa. Pré-requisito: Car 13.",
+    "description": "Você soma seu bônus de Carisma em Iniciativa e na margem de ameaça de seus ataques, na primeira rodada de um combate, contra oponentes cuja ordem na iniciativa seja inferior a sua. Pré-requisito: Car 13.",
     "type": "classe",
     "subtype": "Bucaneiro"
   },
   "Chifres": {
     "name": "Chifres",
-    "description": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres.",
+    "description": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres.",
     "type": "racial",
     "subtype": "Minotauro"
   },
@@ -2281,13 +2281,13 @@
   },
   "Pequeno e Rechonchudo": {
     "name": "Pequeno e Rechonchudo",
-    "description": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e usa o modificador de Destreza para Atletismo (em vez de Força).",
+    "description": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e pode usar o modificador de Destreza para Atletismo (em vez de Força).",
     "type": "racial",
     "subtype": "Hynne"
   },
   "Postura de Combate: Provocação Petulante": {
     "name": "Postura de Combate: Provocação Petulante",
-    "description": "Enquanto esta postura estiver ativa, todos os inimigos que iniciarem seus turnos dentro de seu alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, devem atacar você nessa rodada",
+    "description": "Substitua o texto do poder por “Enquanto essa postura estiver ativa, todos os inimigos que iniciarem seus turnos em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, qualquer ação hostil que realizarem deve ter você como alvo (mas suas outras ações não têm esta restrição). Ações hostis incluem ataques e quaisquer outras ações que causem dano e/ou condições negativas.",
     "type": "classe",
     "subtype": "Cavaleiro"
   },
@@ -2323,19 +2323,19 @@
   },
   "Vingador Sagrado": {
     "name": "Vingador Sagrado",
-    "description": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m, resistência a dano 20 e soma seu modificador de Carisma em seus testes de ataque e rolagens de dano corpo a corpo.",
+    "description": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m e resistência a dano 20. Além disso, o custo de seu Golpe Divino é reduzido à metade",
     "type": "classe",
     "subtype": "Paladino"
   },
   "Mestre Caçador": {
     "name": "Mestre Caçador",
-    "description": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode gastar +5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM.",
+    "description": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode pagar 5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM.",
     "type": "classe",
     "subtype": "Caçador"
   },
   "Ataque Extra": {
     "name": "Ataque Extra",
-    "description": "A partir do 6º nível, quando usa a ação atacar, você pode gastar 2 PM para realizar um ataque adicional com a mesma arma.",
+    "description": "A partir do 6º nível, quando usa a ação atacar, você pode gastar 2 PM para realizar um ataque adicional uma vez por rodada.",
     "type": "classe",
     "subtype": "Guerreiro"
   },
@@ -2347,7 +2347,7 @@
   },
   "Tropas Goblinóides": {
     "name": "Tropas Goblinóides",
-    "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides em espaços desocupados em alcance curto. Você pode usar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 14, Des 14, 1 PV, não têm valor de Defesa ou testes de resistência e falham automaticamente em qualquer teste oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para criaturas invocadas fora de combate ficam a critério do mestre.",
+    "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides em espaços desocupados em alcance curto. Você pode usar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 12, Des 14, 1 PV, não têm valor de Defesa ou testes de resistência e falham automaticamente em qualquer teste oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para criaturas invocadas fora de combate ficam a critério do mestre.",
     "type": "concedido",
     "subtype": "Goblinóides"
   },
@@ -2473,7 +2473,7 @@
   },
   "Tinta do Mago": {
     "name": "Tinta do Mago",
-    "description": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, seu custo para criar pergaminhos é reduzido à metade. Pré-requisitos: Mago, treinado em Conhecimento.",
+    "description": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, seu custo para criar pergaminhos é reduzido à metade. Pré-requisitos: Mago, treinado em Ofício Escriba.",
     "type": "classe",
     "subtype": "Arcanista"
   },
@@ -2485,7 +2485,7 @@
   },
   "Ataque Preciso": {
     "name": "Ataque Preciso",
-    "description": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na margem de ameaça e +1 no multiplicador de crítico. Pré-requisito: Estilo de Uma Arma.",
+    "description": "Se estiver empunhando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na margem de ameaça e +1 no multiplicador de crítico. Pré-requisito: Estilo de Uma Arma.",
     "type": "geral",
     "subtype": "Combate"
   },
@@ -2605,7 +2605,7 @@
   },
   "Estilo de Duas Armas": {
     "name": "Estilo de Duas Armas",
-    "description": "Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Se você possuir Ambidestria, não sofre essa penalidade. Pré-requisito: Des 15, treinado em Luta.",
+    "description": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Se você possuir Ambidestria, não sofre essa penalidade. Pré-requisito: Des 15, treinado em Luta.",
     "type": "geral",
     "subtype": "Combate"
   },
@@ -2617,7 +2617,7 @@
   },
   "Postura de Combate: Foco de Batalha": {
     "name": "Postura de Combate: Foco de Batalha",
-    "description": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário. Pontos de mana temporários desaparecem no final da cena.",
+    "description": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário (cumulativos). Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Pontos de mana temporários desaparecem no final da cena.",
     "type": "classe",
     "subtype": "Cavaleiro"
   },
@@ -2689,7 +2689,7 @@
   },
   "Prestidigitação": {
     "name": "Prestidigitação",
-    "description": "Quando faz uma ação padrão qualquer, você pode aproveitar seus gestos para lançar uma magia de ilusão. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Outros perso-nagens só percebem que você lançou uma magia se passarem num teste de Misticismo (CD 20). Se falhar, a magia não funciona, mas você gasta os PM mesmo assim.",
+    "description": "Quando faz uma ação padrão qualquer, você pode aproveitar seus gestos para lançar uma magia Pré-requisito: 6o nível de bardo. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Outros perso-nagens só percebem que você lançou uma magia se passarem num teste de Misticismo (CD 20). Se falhar, a magia não funciona, mas você gasta os PM mesmo assim.",
     "type": "classe",
     "subtype": "Bardo"
   },
@@ -2719,7 +2719,7 @@
   },
   "Duelo": {
     "name": "Duelo",
-    "description": "A partir do 2º nível, você pode gastar 2 PM para escolher um inimigo em alcance curto e receber +1 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro inimigo, o bônus termina. Para cada 2 PM extras que você gastar, o bônus aumenta em +1.",
+    "description": "A partir do 2o nível, você pode gastar 1 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. A cada cinco níveis, você pode gastar +1 PM para aumentar o bônus em +1.",
     "type": "classe",
     "subtype": "Cavaleiro"
   },
@@ -3031,7 +3031,7 @@
   },
   "Aspecto do Outono": {
     "name": "Aspecto do Outono",
-    "description": "Você aprende uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar. Você pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance médio até o início do seu próximo turno. Durante o outono, suas magias de druida custam −1 PM.",
+    "description": "Você aprende uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar, mesmo se necromancia não for uma de suas escolas). Você pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance médio até o início do seu próximo turno. Durante o outono, suas magias de druida custam −1 PM.",
     "type": "classe",
     "subtype": "Druida"
   },
@@ -3217,7 +3217,7 @@
   },
   "Elo com a Natureza": {
     "name": "Elo com a Natureza",
-    "description": "Você soma seu bônus de Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria). Pré-requisito: Sab 13, 3º nível de caçador.",
+    "description": "Você soma seu bônus de Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria). Pré-requisito: Sab 13, 3º nível de caçador. Este poder é uma habilidade mágica",
     "type": "classe",
     "subtype": "Caçador"
   },
@@ -3259,7 +3259,7 @@
   },
   "Palavras Afiadas": {
     "name": "Palavras Afiadas",
-    "description": "Você pode gastar uma ação padrão e 1 PM para submeter a sua vontade uma criatura inteligente (Int 3 ou mais) em alcance curto. Faça um teste de Diplomacia ou Intimidação (a sua escolha) oposto ao teste de Vontade da criatura. Se vencer, você causa 2d6 pontos de dano mental não letal à criatura. Se perder, causa metade deste dano. Para cada PM extra que você gastar quando ativar o poder, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, rende-se (caso você tenha usado Diplomacia) ou fica apavorada (caso tenha usado Intimidação), em vez de cair inconsciente.",
+    "description": "Você pode gastar uma ação padrão e 1 PM para submeter a sua vontade uma criatura inteligente (Int 3 ou mais) em alcance curto. Faça um teste de Diplomacia ou Intimidação (a sua escolha) oposto ao teste de Vontade da criatura. Se vencer, você causa 2d6 pontos de dano mental não letal à criatura. Se perder, causa metade deste dano. Para cada PM extra que você gastar quando ativar o poder, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, rende-se (caso você tenha usado Diplomacia) ou fica apavorada (caso tenha usado Intimidação) e foge de você da maneira mais eficiente possíve, em vez de cair inconsciente.",
     "type": "classe",
     "subtype": "Nobre"
   },
