@@ -1,6 +1,78 @@
 [
   {
     "type": "folder",
+    "name": "Atributos",
+    "items": [  
+      {
+        "type": "folder",
+        "name": "Força",
+        "items": [
+          {
+            "type": "item",
+            "name": "Descrição ",
+            "description": "A Força mede seu poder muscular, sua força física. O modificador de Força é aplicado em testes de Atletismo e Luta; rolagens de dano corpo a corpo ou com armas de arremesso, e testes de Força para levantar peso, quebrar objetos e atos similares."
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Destreza",
+        "items": [
+          {
+            "type": "item",
+            "name": "Descrição ",
+            "description": "A Destreza mede agilidade, reflexos, equilíbrio e coordenação motora. O modificador de Destreza é aplicado na Defesa e em testes de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladinagem, Pilotagem, Pontaria e Reflexos."
+          }
+        ]
+      }, 
+      {
+        "type": "folder",
+        "name": "Constituição",
+        "items": [
+          {
+            "type": "item",
+            "name": "Descrição ",
+            "description": "A saúde e o vigor físico do herói são representados pela Constituição. Seu modificador é aplicado aos pontos de vida iniciais e por nível, e em testes de Fortitude. Se o seu modificador de Constituição muda, os pontos de vida aumentam ou diminuem de acordo."
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Inteligência",
+        "items": [
+          {
+            "type": "item",
+            "name": "Descrição ",
+            "description": "A capacidade de raciocinar e resolver problemas é medida pela Inteligência. Você aplica o modificador de Inteligência em testes de Conhecimento, Guerra, Investigação, Misticismo, Nobreza e Ofício. Além disso, recebe um número de perícias treinadas adicionais igual ao seu bônus de Inteligência. Essas perícias não precisam ser da sua classe."
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Sabedoria",
+        "items": [
+          {
+            "type": "item",
+            "name": "Descrição ",
+            "description": "A Sabedoria representa a percepção e a força de vontade, além de bom senso e intuição. O modificador de Sabedoria é aplicado em testes de Cura, Intuição, Percepção, Religião, Sobrevivência e Vontade."
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Carisma",
+        "items": [
+          {
+            "type": "item",
+            "name": "Descrição ",
+            "description": "Carisma mede sua força de personalidade e capacidade de persuasão, além de uma mistura de simpatia e beleza física. Seu modificador de Carisma será aplicado em testes de Adestramento, Atuação, Diplomacia, Enganação, Intimidação e Jogatina."
+          }
+        ]
+      }  
+    ]
+  },
+  {
+    "type": "folder",
     "name": "Combate",
     "items": [
       {
@@ -91,7 +163,7 @@
               {
                 "type": "item",
                 "name": "Agarrar",
-                "description": "Você usa uma mão para segurar uma criatura (por seu braço, sua roupa etc.). Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Ela pode se soltar com uma ação padrão, vencendo um teste de manobra oposto. Enquanto agarra uma criatura, você fica com uma mão ocupada e move-se metade do deslocamento normal (mas arrastando a criatura que estiver agarrando). Você pode soltá-la com uma ação livre. Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de manobra contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado. Isso significa que você está esmagando ou sufocando o inimigo.\n\nVocê só pode agarrar com um ataque desarmado. Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!\n"
+                "description": "Você usa uma mão para segurar uma criatura (por seu braço, sua roupa etc.). Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Ela pode se soltar com uma ação padrão, vencendo um teste de manobra oposto. Enquanto agarra uma criatura, você fica com uma mão ocupada e move-se metade do deslocamento normal (mas arrastando a criatura que estiver agarrando). Você pode soltá-la com uma ação livre. Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de manobra contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado. Isso significa que você está esmagando ou sufocando o inimigo.\n\nVocê só pode agarrar com um ataque desarmado ou arma natural (que fica ocupada enquanto agarra). Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!\n"
               },
               {
                 "type": "item",
@@ -228,7 +300,7 @@
       {
         "type": "item",
         "name": "Dano Não Letal",
-        "description": "Dano não letal se soma ao dano letal para determinar quando você cai inconsciente, mas não conta para determinar quando você morre. Se você tem dano letal e não letal e é curado, cura primeiro o dano não letal.\n\nQuase todo dano causado em condições normais (armas, armadilhas, magias...) é letal. Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas da arma, controlando a força dos golpes ou evitando pontos vitais), mas sofre uma penalidade de –5 no teste de ataque.\n\nAtaques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque.\n"
+        "description": "Dano não letal se soma ao dano letal para determinar quando você cai inconsciente, mas não conta para determinar quando você morre e começa a sangrar. Se você tem dano letal e não letal e é curado, cura primeiro o dano não letal.\n\nQuase todo dano causado em condições normais (armas, armadilhas, magias...) é letal. Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas da arma, controlando a força dos golpes ou evitando pontos vitais), mas sofre uma penalidade de –5 no teste de ataque.\n\nAtaques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque.\n"
       },
       {
         "type": "folder",
@@ -242,7 +314,7 @@
           {
             "type": "item",
             "name": "Atravessar um Espaço Ocupado",
-            "description": "Você pode se mover livremente através de um espaço (ou um quadrado) ocupado por um aliado. No entanto, não pode atravessar um quadrado ocupado por um inimigo, a menos que ele esteja indefeso ou seja pelo menos três categorias de tamanho maior ou menor que você. Você também pode atravessar um espaço ocupado por um inimigo usando a perícia Acrobacia ou a manobra atropelar."
+            "description": "Você pode se mover livremente através de um espaço (ou um quadrado) ocupado por um aliado. No entanto, não pode atravessar um quadrado ocupado por um inimigo, a menos que ele esteja indefeso ou seja pelo menos três categorias de tamanho maior ou menor que você. Um inimigo caído conta como uma categoria de tamanho menor para esse efeito. Você também pode atravessar um espaço ocupado por um inimigo usando a perícia Acrobacia ou a manobra atropelar."
           },
           {
             "type": "item",
@@ -288,7 +360,7 @@
           {
             "type": "item",
             "name": "Flanquear",
-            "description": "Quando você luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre vocês — vocês estão flanqueando o alvo. Ambos recebem +2 em seus testes de ataque contra o alvo flanqueado. Não se pode flanquear à distância."
+            "description": "Quando você luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre vocês — vocês estão flanqueando o alvo. Ambos recebem +2 em seus testes de ataque contra o alvo flanqueado. Não se pode flanquear à distância ou com ataques desarmados, a menos que o personagem possua as habilidades Briga ou Estilo Desarmado."
           }
         ]
       },
@@ -321,7 +393,7 @@
       {
         "type": "item",
         "name": "Apavorado",
-        "description": "O personagem sofre –5 em testes de perícia e deve fugir da fonte do medo da maneira mais eficiente possível. Se não puder, poderá agir, mas não poderá se aproximar voluntariamente da fonte do medo. Condição de medo."
+        "description": "O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo"
       },
       {
         "type": "item",
@@ -336,12 +408,12 @@
       {
         "type": "item",
         "name": "Cego",
-        "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Condição de sentidos."
+        "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Condição de sentidos."
       },
       {
         "type": "item",
         "name": "Confuso",
-        "description": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações, exceto reações, e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Condição mental."
+        "description": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações, e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Condição mental."
       },
       {
         "type": "item",
@@ -351,7 +423,7 @@
       {
         "type": "item",
         "name": "Desprevenido",
-        "description": "Despreparado para reagir. O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa ver."
+        "description": "Despreparado para reagir. O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber."
       },
       {
         "type": "item",
@@ -376,7 +448,7 @@
       {
         "type": "item",
         "name": "Envenenado",
-        "description": "O efeito desta condição varia de acordo com o veneno. Pode ser outra condição (por exemplo, fraco ou enjoado) ou dano recorrente (por exemplo, 1d12 pontos de dano por rodada). A descrição do veneno determina a duração dele (caso nada seja dito, a condição dura pela cena)."
+        "description": "O efeito desta condição varia de acordo com o veneno. Pode ser outra condição (por exemplo, fraco ou enjoado) ou dano recorrente (por exemplo, 1d12 pontos de dano por rodada). A descrição do veneno determina a duração dele (caso nada seja dito, a condição dura pela cena). Dano recorrente de condições envenenado sempre se acumula (mesmo se as condições ou fontes que as causam forem iguais)."
       },
       {
         "type": "item",
@@ -416,7 +488,7 @@
       {
         "type": "item",
         "name": "Inconsciente",
-        "description": "O personagem fica indefeso e não pode fazer ações. Balançar uma criatura para acordá-la gasta uma ação padrão."
+        "description": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Entretanto, uma criatura inconsciente ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente (como testes de Constituição para estabilizar sangramento ou testes de Fortitude contra doenças). Balançar uma criatura para acordá-la gasta uma ação padrão."
       },
       {
         "type": "item",
@@ -441,7 +513,7 @@
       {
         "type": "item",
         "name": "Pasmo",
-        "description": "O personagem não pode fazer ações, exceto reações. Condição mental."
+        "description": "O personagem não pode fazer ações. Condição mental."
       },
       {
         "type": "item",
@@ -451,7 +523,7 @@
       {
         "type": "item",
         "name": "Sangrando",
-        "description": "Com um ferimento aberto. No início de seus turnos, o personagem deve fazer um teste de Constituição (CD 15). Se passar, estabiliza e remove essa condição. Se falhar, sofre 1d6 pontos de dano e continua sangrando."
+        "description": "Com um ferimento aberto. No início de seus turnos, o personagem deve fazer um teste de Constituição (CD 15). Se passar, estabiliza e remove essa condição. Se falhar, perde 1d6 PV e continua sangrando."
       },
       {
         "type": "item",
@@ -461,7 +533,7 @@
       {
         "type": "item",
         "name": "Surpreendido",
-        "description": "Não ciente de seus inimigos. O personagem fica desprevenido e não pode fazer ações, exceto reações."
+        "description": "Não ciente de seus inimigos. O personagem fica desprevenido e não pode fazer ações."
       },
       {
         "type": "item",
@@ -647,7 +719,7 @@
           {
             "type": "item",
             "name": "Cura - Descrição",
-            "description": "Sab\n\nVocê sabe tratar ferimentos, doenças e venenos.\n\nEsta perícia exige um kit de medicamentos. Sem ele, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste.\n"
+            "description": "Sab\n\nVocê sabe tratar ferimentos, doenças e venenos.\n\nEsta perícia exige um kit de medicamentos. Sem ele, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste.Esta perícia, assim como habilidades que exigem testes dela, não tem efeito em construtos”\n"
           },
           {
             "type": "item",
@@ -776,7 +848,7 @@
           {
             "type": "item",
             "name": "Esconder-se",
-            "description": "Faça um teste de Furtividade oposto pelos testes de Percepção de qualquer um que possa notá-lo. Criaturas que falharem não conseguem percebê-lo (você tem camuflagem total contra elas).\n\nEsconder-se é uma ação livre, mas você precisa terminar seu turno com cobertura ou camuflagem — escuridão, folhagens, outras pessoas com as quais consiga se misturar etc. Você pode se mover à metade de seu deslocamento sem penalidades ou ao seu deslocamento normal sofrendo –5 no teste (se estiver se escondendo em uma multidão, pode se mover ao deslocamento dela sem sofrer penalidade). Se atacar, lançar uma magia ou fizer outra ação chamativa, sofre uma penalidade de –20 (e, se já estava escondido, deve refazer o teste com esta penalidade).\n"
+            "description": "Faça um teste de Furtividade oposto pelos testes de Percepção de qualquer um que possa notá-lo. Criaturas que falharem não conseguem percebê-lo (você tem camuflagem total contra elas).\n\nEsconder-se é uma ação livre, mas você precisa terminar seu turno com cobertura ou camuflagem — escuridão, folhagens, outras pessoas com as quais consiga se misturar etc. Você pode se mover à metade de seu deslocamento sem penalidades ou ao seu deslocamento normal sofrendo –5 no teste (se estiver se escondendo em uma multidão, pode se mover ao deslocamento dela sem sofrer penalidade). Se atacar, lançar uma magia ou fizer outra ação chamativa, sofre uma penalidade de –20 (e, se já estava escondido, deve refazer o teste com esta penalidade) pelo restante da rodada.\n"
           },
           {
             "type": "item",
@@ -960,7 +1032,7 @@
           {
             "type": "item",
             "name": "Detectar Magia (CD 15)",
-            "description": "Como uma ação completa, você detecta a presença e intensidade de auras mágicas (magias ativas e itens mágicos) em alcance curto. A intensidade de uma aura mágica depende do círculo da magia ou categoria do item mágico. Magias de 1º e 2º círculos e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculos e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura mágica esteja atrás de uma barreira física, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
+            "description": "Como uma ação completa, você detecta a presença e intensidade de auras mágicas(mas não a localização) (magias ativas e itens mágicos) em alcance curto. A intensidade de uma aura mágica depende do círculo da magia ou categoria do item mágico. Magias de 1º e 2º círculos e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculos e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura mágica esteja atrás de uma barreira física, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
           },
           {
             "type": "item",
@@ -1195,6 +1267,747 @@
             "type": "item",
             "name": "Resistência",
             "description": "Você usa Vontade para resistir a efeitos mentais, como encantamentos e ilusões. A CD é determinada pelo efeito."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Aliados",
+    "items": [
+      {
+        "type": "item",
+        "name": "Regra aliados ",
+        "description": " Aliados não atuam como NPCs completos. Eles não têm um turno na rodada e não realizam ações. Em vez disso, cada aliado ajuda um personagem, fornecendo um bônus. Esse bônus depende do tipo e  poder do aliado (iniciante, veterano ou mestre). Essa  classificação é abstrata, não indicando classe e nível do NPC, e fica a cargo do mestre. Aliados fornecidos  por habilidades só mudam de poder (de iniciante para  veterano, por exemplo), quando dito pela habilidade. Cada aliado pode ajudar apenas um personagem  por vez. No início do seu turno, você pode gastar uma ação de movimento para passar um aliado inteligente para outro personagem em alcance curto até o fim  da cena. Para passar aliados animais, veja a perícia Adestramento, na página 115. Um aliado montaria deve ser desmontado e montado normalmente. Personagens de até 6º nível podem ter um aliado.  Personagens do 7º ao 14º nível podem ter até dois  aliados. Personagens do 15º nível em diante podem ter até três aliados. Aliados não podem ser atacados. Porém, em  situações dramáticas, o mestre pode decidir que algo acontece com ele. Por exemplo, se um personagem é capturado por orcs, o cavalo dele pode acabar a servi ço dos humanoides — ou ser devorado! Veja também o quadro “Aliados Vulneráveis”, na página 248. Aliados que fornecem bônus em rolagens de dano de um tipo fornecem este bônus apenas na primeira rolagem de dano do tipo apropriado em cada rodada. Esta mudança afeta os aliados dos tipos atirador, fortão e montaria (lobo das cavernas, grifo e gorlogg)"
+      },  
+      {
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "item",
+            "name": "Ajudante ",
+            "description": " Um bardo, nobre ou sábio que ajuda com pala- vras firmes ou encorajadoras. \n **Iniciante:** você recebe +2 em duas perícias.\n **Veterano:** muda para +2 em três perícias. \n **Mestre:** muda para +4 em três perícias. As perícias são definidas pelo aliado. Um ajudante não pode fornecer bônus em Luta ou Pontaria."
+          },
+          {
+            "type": "item",
+            "name": "Assassino",
+            "description": "Um ladino ou outro tipo furtivo que mata pessoas. \n **Iniciante:** você recebe a habilidade Ataque Furtivo +1d6. Se já possui a habilidade, o bônus é cumulativo. \n **Veterano:** além do Ataque Furtivo, fornece bônus por flanquear contra um inimigo por rodada. \n **Mestre:** muda o dano do Ataque Furtivo para +2d6. Além de +2 em testes de ataque corpo a corpo, o bônus por flanquear permite que o personagem use seu Ataque Furtivo em ataques corpo a corpo mais facilmente."
+          },  
+          {
+            "type": "item",
+            "name": "Atirador",
+            "description": "Um arqueiro, besteiro ou outro combatente à distância. \n **Iniciante:** você recebe +1d6 em rolagens de dano à distância. \n **Veterano:** muda para +1d10. \n **Mestre:** muda para +2d8."
+          },  
+          {
+            "type": "item",
+            "name": "Combatente",
+            "description": " Um bucaneiro, guerreiro, paladino ou animal de caça. \n**Iniciante:** +1 em testes de ataque. \n**Veterano:** muda para +2 em testes de ataque. \n**Mestre:** muda para +3 em testes de ataque e uma vez por rodada, você pode gastar 5 PM para fazer um ataque extra em seu turno."
+          },  
+          {
+            "type": "item",
+            "name": "Destruidor",
+            "description": "Um arcanista ou inventor com itens alquímicos.\n **Iniciante:** uma vez por rodada, como uma ação livre, você pode gastar 1 PM para causar 2d6 pontos de dano de ácido, eletricidade, fogo ou frio (de acordo com o aliado) em um alvo em alcance curto. \n **Veterano:** como acima, mas você também pode gastar 2 PM para causar 4d6 pontos de dano. \n **Mestre:** como acima, mas você também pode gastar 4 PM para causar 6d6 pontos de dano em uma área de 6m de raio em alcance médio."
+          },
+          {
+            "type": "item",
+            "name": "Fortão ",
+            "description": " Um bárbaro, lutador ou outro tipo que bate  primeiro e pensa depois. \n **Iniciante:** você recebe +1d8 em rolagens de dano corpo a corpo. \n **Veterano:** muda para +1d12. \n **Mestre:** muda para +3d6."
+          },
+          {
+            "type": "item",
+            "name": "Guardião ",
+            "description": "Um cavaleiro, miliciano, guarda-costas, cão de guarda ou outro NPC cuja função primária é proteger. \n **Iniciante:** você recebe +2 em Defesa. \n **Veterano:** muda para +3 em Defesa. \n**Mestre:** muda para +4 em Defesa e +2 em testes de resistência. "
+          },
+          {
+            "type": "item",
+            "name": "Médico ",
+            "description": " Um clérigo, druida, herbalista ou outro NPC com capacidades curativas. \n **Iniciante:** uma vez por turno, como uma ação livre, você pode gastar 1 PM para recuperar 1d8+1 PV. \n **Veterano:** como acima, mas você também pode gastar 3 PM para recuperar 3d8+3 PV ou remover uma condição prejudicial (como abalado ou fatigado). \n **Mestre:** como acima, mas você também pode gastar 6 PM para recuperar 6d8+6 PV."
+          },            
+          {
+            "type": "item",
+            "name": "Perseguidor",
+            "description": "Um caçador, animal farejador ou outro especia- lista em localizar alvos. \n ** Iniciante:** +2 em Percepção e Sobrevivência. \n **Veterano:** você recebe Sentidos Aguçados. \n **Mestre:** você recebe Percepção às Cegas."
+          },
+          {
+            "type": "item",
+            "name": "Vigilante ",
+            "description": "Um vigia ou animal de guarda, sempre atento aos arredores. \n **Iniciante:** +2 em Percepção e Iniciativa. \n **Veterano:** você recebe Esquiva Sobrenatural. \n **Mestre:** você recebe Olhos nas Costas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Alimentação",
+    "items": [
+      {
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "item",
+            "name": "Bebida Comum",
+            "description": "Uma caneca cheia da bebida mais comum no local, geralmente cerveja. \n ***Preço:*** T$ 0,1."
+          },
+          {
+            "type": "item",
+            "name": "Refeição Comum",
+            "description": "Uma refeição típica inclui pão, queijo, cozido de carne ou galinha com legumes e uma caneca de bebida. \n ***Preço:*** T$ 0,3. "
+          },
+          {
+            "type": "item",
+            "name": "Batata Valkariana",
+            "description": "Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, o prato é quase unânime. Gostoso, deixa qualquer um empolgado para realizar façanhas. **Você recebe +1d6 num único teste a sua escolha realizado nesse dia.** Para não esquecer, deixe um d6 em cima da sua ficha. De preferência, amarelo. CD 15. \n ***Preço:*** T$ 2."
+          },
+          {
+            "type": "item",
+            "name": "Gorad Quente.",
+            "description": "Gorad e leite, servidos quentes. Não tem erro. O gorad ativa o cérebro, fornecendo **+2 PM temporários.** CD 20. \n ***Preço:*** T$ 18."
+          },
+          {
+            "type": "item",
+            "name": "Macarrão de Yuvalin",
+            "description": "Yuvalin é uma cidade mineradora em Zakharov, na fronteira com as Mon-tanhas Uivantes. Seus habitantes criaram este prato reforçado (macarrão, bacon e creme de leite!) para encarar suas árduas jornadas de trabalho nas minas. Delicioso, o prato se espalhou por outras cidades e reinos. Você recebe **+5 PV temporários.** CD 15. \n ***Preço:*** T$ 6."
+          },
+          {
+            "type": "item",
+            "name": "Prato do Aventureiro",
+            "description": "Um cozido de galinha com legumes, esta é uma refeição simples, mas nutritiva. Em sua próxima noite de sono, **você aumenta a sua recuperação de pontos de vida em +1 por nível.** CD 10. \n ***Preço:*** T$ 1."
+          },          
+          {
+            "type": "item",
+            "name": "Sopa de Peixe",
+            "description": "Um cozido de peixe com verduras. É um prato humilde, mas garante um descanso relaxante. Em sua próxima noite de sono, **você aumenta a sua recuperação de pontos de mana em +1 por nível.** CD 10. \n ***Preço:*** T$ 1."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Deuses",
+    "items": [
+      {
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "folder",
+            "name": "Aharadak",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar a Tor- menta, apregoar a inevitabilidade de sua chegada ao mundo. Praticar a devassidão e a perversão. Deturpar tudo que é correto, desfigurar tudo que é normal. Abraçar a agonia, crueldade e loucura."
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Quase todos os cultistas de Aharadak são maníacos insanos, compelidos a praticar os atos mais abomináveis. No entanto, talvez devido à própria natureza alienígena e incompreensível deste deus, uns poucos devotos conseguem se resguardar. Conseguem preservar sua preciosa humanidade, abstendo-se de cometer crimes ou profanações. Ainda assim, o devoto de Aharadak deve pagar um preço. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida."
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Allihanna",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural."
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, armadura de couro, gibão de peles e escudo leve. \nDevotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Arsenal",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Promover a guerra e o conflito. Vencer a qualquer custo, pela força ou estratégia. Jamais oferecer ou aceitar rendição. Eliminar as próprias fraquezas. Conhecer o inimigo como a si mesmo. Sempre encontrar condições de vitória; quando não existirem, criá-las. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Um devoto de Arsenal é proibido de ser derrotado em qualquer tipo de combate ou disputa (como um teste oposto para ver quem é mais forte). Caso seu grupo seja derrotado, isso também constitui uma violação das obrigações. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Azgher ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar a gratidão pela proteção e generosidade do sol. Promover a honestidade, expor embustes e mentiras. Praticar a caridade e o altruísmo. Proteger os necessitados. Oferecer clemência, perdão e redenção. Combater o mal. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote ou em seu funeral. Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Hyninn",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar a astúcia e a esperteza. Demonstrar que honestidade e sinceridade levam ao fracasso. Desafiar a lei e a ordem. Ser vitorioso sem seguir regras. Fazer aos outros antes que façam a você. Levar vantagem em tudo. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Um devoto de Hyninn não recusa participação em um golpe, trapaça ou artimanha (o que muitas vezes inclui missões para roubar... hã, resgatar tesouros), exceto quando prejudica seus próprios companheiros. O devoto também deve fazer um ato furtivo, ousado ou proibido por dia (ou por sessão de jogo, o que demorar mais), como oferenda a Hyninn. Roubar uma bolsa, enganar um miliciano, invadir o quarto de um nobre... Em termos de jogo, uma ação exigindo um teste de Enganação ou Ladinagem com CD mínima 15 + metade do seu nível. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Kallyadranoch",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar a soberania. Demonstrar orgulho, superioridade, majestade. Praticar o acúmulo de riquezas. Proteger suas posses e sua dignidade. Ser implacável com seus inimigos. Reverenciar os dragões e suas crias. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n  Para subir de nível, além de acumular XP suficiente, o devoto de Kally deve realizar uma oferenda em tesouro. O valor é igual à metade da diferença do dinheiro inicial do nível que vai alcançar para o nível atual (por exemplo, T$ 200 para subir para o 4° nível). Sabe-se, também, de devotos malignos que sacrificam vítimas a Kally (não permitido para personagens jogadores).  "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Khalmyr ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar a caridade e o altruísmo. Defender a lei, a ordem e os necessitados. Combater a mentira, o crime e o mal. Oferecer clemência, perdão e redenção. Lutar o bom combate. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Devotos de Khalmyr não podem recusar pedidos de ajuda feitos por pessoas inocentes. Também devem cumprir as ordens de superiores na hierarquia da igreja (qualquer devoto do Deus da Justiça de nível maior) e só podem usar itens mágicos criados por devotos do mesmo deus. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Lena  ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar e proteger a vida em todas as suas formas. Reverenciar a fertilidade, a fecundidade, a maternidade e a infância. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção. Aliviar a dor e o sofrimento físico, mental ou espiritual. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Devotos de Lena não podem causar dano letal a criaturas vivas (habilidades que concedam bônus às rolagens de dano letal de seus aliados também são proibidas). Podem causar dano não letal e prejudicar seus inimigos (em termos de jogo, impondo condições), desde que não causem dano letal. Para um devoto de Lena, é preferível perder a própria vida a tirá-la de outros. Apenas mulheres podem ser devotas de Lena. Uma clériga precisa dar à luz pelo menos uma vez antes de receber seus poderes divinos. A fecundação é um mistério bem guardado pelas sacerdotisas; conta-se que a própria deusa vem semear suas discípulas. Paladinos de Lena podem ser homens (são os únicos devotos masculinos permitidos) ou mulheres. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Lin-Wu",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n  Promover a honra acima de tudo. Proteger Tamu-ra e o Reinado de Arton. Praticar honestidade, coragem, cortesia e compaixão. Demonstrar integridade e dignidade. Ser leal a seus companheiros. Buscar redenção após cometer desonra. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Antigas proibições quanto a devotos estrangeiros ou do gênero feminino não mais se aplicam. No entanto, devotos de Lin-Wu ainda devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Marah",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar o amor e a gratidão pela vida, pela bondade dos deuses. Promover a paz, harmonia e felicidade. Aliviar a dor e o sofrimento, trazer conforto aos aflitos. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n  Devotos de Marah não podem causar dano e impor condições a criaturas, exceto fascinado e pasmo (habilidades que por “concedam bônus às rolagens de dano de seus aliados também são proibidas). Em combate, só podem recorrer a ações como proteger ou curar — ou então fugir, render-se ou aceitar a morte. Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Megalokk ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar a violência, a soberania do mais forte. Jamais reprimir os próprios instintos e desejos. Jamais ser domado, desafiar qualquer forma de controle. Jamais oferecer perdão ou rendição. Eliminar os fracos. Destruir seus inimigos. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n  Devotos de Megalokk devem entregar-se à ferocidade, descontrole e impaciência. Você é proibido de tentar ações que exigem calma ou foco, como preparar uma ação, escolher 10 ou 20 em um teste ou lançar uma magia sustentada. O devoto também é obrigado a rejeitar os modos civilizados. Você é proibido de tentar qualquer teste de perícia baseada em Inteligência ou Carisma (exceto Adestramento e Intimidação). "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Nimb",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar o caos, a aleatoriedade, a sorte e o azar. Praticar a ousadia e a rebeldia, desafiar regras e leis. Rejeitar o bom senso. Tornar o mundo mais interessante. Ou divertido. Ou terrível. Ou não. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Por serem incapazes de seguir regras, estes devotos não têm “obrigações” verdadeiras (portanto, nunca perdem seus PM por descumprirem suas obrigações e restrições). No entanto, sofrem certas restrições que não podem escolher ignorar. Devotos de Nimb são loucos (ou agem como se fossem), não conseguindo convencer ninguém de coisa alguma. Você sofre –5 em testes de perícias baseadas em Carisma. Além disso, no início de cada cena de ação, role 1d6. Com um resultado 1, você fica confuso até o fim da cena. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Oceano ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar os ma res, o oceano e os seres que ali habitam. Promover harmonia entre o oceano e o mundo seco. Proteger os seres marinhos, mas também os seres do mundo seco que se aventuram sobre as ondas. Demandar devido respeito ao mar e seu poder. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n  As únicas armas permitidas para devotos do Oceano são a azagaia, a lança, o tridente e a rede. Podem usar apenas armaduras de couro. O devoto também não pode se manter afastado do oceano por mais de uma semana."
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Sszzaas",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Praticar a mentira e a trapaça. Buscar sempre a solução mais inteligente. Demonstrar que lealdade e confiança são fraquezas, devem ser eliminadas. Promover competição, rivalidade, desconfiança. Usar os recursos do inimigo para alcançar seus objetivos. Levar outros a se sacrificarem em seu lugar. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n O devoto deve fazer um ato de traição, intriga ou corrupção por dia (ou por sessão de jogo, o que demorar mais) como oferenda a Sszzaas. Pouco importa se o alvo é aliado ou inimigo — uns poucos sszzaazitas usam seus métodos torpes para ajudar colegas aventureiros em suas missões, às vezes sem que eles próprios saibam. Sugerir a alguém que foi traído pelo cônjuge, influenciar um miliciano a aceitar suborno, instruir um mercador a roubar nos preços, levar alguém a ser culpado de um crime que não cometeu, forjar uma falsificação que incrimina um inocente, enganar um guerreiro para que mate um oponente rendido e inofensivo... Em termos de jogo, uma ação exigindo um teste de Enganação com CD mínima 15 + metade do seu nível. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Tanna-Toh",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar a mente racional, o conhecimento, a civilização, a verdade. Proteger o progresso, o avanço dos povos civilizados. Promover o ensino e a prática das artes e das ciências. Solucionar todos os mistérios, revelar todas as mentiras. Buscar novo conhecimento. Não tolerar a ignorância. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n  Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida... \n Além disso, o devoto sempre deve dizer a verdade e nunca pode se recusar a responder uma pergunta direta, pouco importando as consequências. É proibido para ele esconder qualquer conhecimento. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Tenebra",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar a noite, a escuridão, a lua e as estrelas. Proteger segredos e mistérios, proteger tudo que é oculto e invisível. Reverenciar a não vida e os mortos-vivos, propagar a prática da necromancia. Rejeitar o sol e a luz. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n  Tenebra proíbe que seus devotos sejam tocados por Azgher, o odiado rival. O devoto deve se cobrir inteiramente durante o dia, sem expor ao sol nenhum pedaço de pele."
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Thwor ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n  Reverenciar a lealdade, a força e a coragem. Promover a união entre goblins, hobgoblins, bugbears, orcs, ogros e outros povos humanoides. Reverenciar o caos, a mutação, a vida sempre em movimento. Proteger a cultura e o modo de vida goblinoide. Destruir os elfos. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Não importando sua raça, o devoto de Thwor deve ser considerado duyshidakk — ou seja, aceito como membro do povo goblinoide. Também deve se esforçar para que o modo de vida duyshidakk tome o continente. Deve sempre procurar fazer alianças com goblinoides e só lutar contra eles em último caso. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Thyatis",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n  Proteger a vida e aqueles necessitados de novas chances. Renegar a morte e a mentira. Ajudar os perdidos a encontrar seus caminhos e alcançar seus destinos. Oferecer clemência, perdão e redenção. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Devotos de Thyatis são proibidos de matar seres inteligentes (Int 3 ou mais). Podem atacar e causar dano, mas jamais levar à morte. Por esse motivo, devotos de Thyatis preferem armas e ataques que apenas incapacitam seus oponentes ou causam dano não letal. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Valkaria",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n  Praticar o otimismo, a evolução, a rebeldia. Desafiar limites, almejar o impossível. Combater o mal, a opressão e a tirania. Proteger a liberdade. Aceitar o novo e diferente e adaptar-se a ele. Demonstrar ambição, paixão e coragem. Desfrutar e amar a vida. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Valkaria odeia o conformismo. Seus devotos são proibidos de fixar moradia em um mesmo lugar, não podendo permanecer mais de 2d10+10 dias na mesma cidade (ou vila, aldeia, povoado...) ou 1d4+2 meses no mesmo reino. \n Devotos de Valkaria também são proibidos de se casar ou formar qualquer união estável. "
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "Wynna ",
+            "items": [
+              {
+                "type": "item",
+                "name": " Crenças e Objetivos ",
+                "description": " \n Reverenciar a magia arcana e seus praticantes. Promover o ensino da magia. Usar a magia para proteger os necessitados e trazer felicidade ao mundo. "
+              },
+              {
+                "type": "item",
+                "name": " Obrigações & Restrições  ",
+                "description": " \n Ainda que a magia jamais possa ser negada para quem a busca, devotos de Wynna devem praticar a bondade e a generosidade de sua deusa, jamais recusando um pedido de ajuda. Além disso, devotos de Wynna são proibidos de matar seres mágicos (elfos, qareen, sílfides e outros a critério do mestre) e conjuradores arcanos. "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Detalhamento poderes",
+    "items": [
+      {
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "folder",
+            "name": "Efeitos golpe pessoal",
+            "items": [
+              {
+                "type": "item",
+                "name": "À Distância (+1 PM) ",
+                "description": " \n Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e modificador de Força no dano)."
+              },
+              {
+                "type": "item",
+                "name": "Amplo (+3 PM) ",
+                "description": " \n Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura. "
+              },
+              {
+                "type": "item",
+                "name": "Atordoante (+2 PM) ",
+                "description": " \n Uma criatura que sofra dano do ataque fica atordoada por uma rodada (Fortitude CD For anula).Se passar no teste de Fortitude, a criatura não poderá mais ser atordoada por este Golpe Pessoal até o fim da cena "
+              },
+              {
+                "type": "item",
+                "name": "Brutal (+1 PM)",
+                "description": " \n Aumenta o dano em mais um dado do mesmo tipo. "
+              },
+              {
+                "type": "item",
+                "name": "Conjurador (Custo da Magia + 1 PM) ",
+                "description": " \n Escolha uma magia de 1o ou 2o círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha). Considere que a mão da arma está livre para lançar esta magia."
+              },
+              {
+                "type": "item",
+                "name": "Destruidor (+2 PM)",
+                "description": " \n Aumenta o multiplicador de crítico em +1. "
+              },
+              {
+                "type": "item",
+                "name": "Elemental (+2 PM) ",
+                "description": " \n Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito várias vezes, aumentando o dano em +2d6 e o custo em +2 PM a cada vez. "
+              },
+              {
+                "type": "item",
+                "name": "Impactante (+1 PM) ",
+                "description": " \n Empurra o alvo 1,5m para cada 5 pontos de dano causado (arredondado para baixo). Por exemplo, um ataque que cause 22 pontos de dano empurra o alvo 6m. "
+              },
+              {
+                "type": "item",
+                "name": "Letal (+2 PM) ",
+                "description": " \n Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5. "
+              },
+              {
+                "type": "item",
+                "name": "Penetrante (+1 PM) ",
+                "description": " \n Ignora 5 pontos de resistência a dano. Você pode escolher este efeito duas vezes, para ignorar 10 pontos de RD "
+              },
+              {
+                "type": "item",
+                "name": "Preciso (+1 PM) ",
+                "description": " \n Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado. "
+              },
+              {
+                "type": "item",
+                "name": "Qualquer Arma (+1 PM) ",
+                "description": " \n Você pode usar seu Golpe Pessoal com qualquer tipo de arma "
+              },
+              {
+                "type": "item",
+                "name": "Teleguiado (+1 PM)",
+                "description": " \n Ignora penalidades por camuflagem ou cobertura (mas não cobertura total). "
+              },
+              {
+                "type": "item",
+                "name": "Lento (–2 PM)",
+                "description": " \n Seu ataque exige uma ação completa para ser usado. "
+              },
+              {
+                "type": "item",
+                "name": "Perto da Morte (–2 PM)",
+                "description": " \n Seu ataque só pode ser usado se você estiver com um quarto de seus pontos de vida ou menos. "
+              },
+              {
+                "type": "item",
+                "name": "Sacrifício (–2 PM)",
+                "description": " \n Você perde PV igual à metade do dano causado pelo seu ataque. "
+              }  
+            ]
+          },
+          {
+            "type": "item",
+            "name": "Missa",
+            "description": " \n \n Alguns poderes do clérigo são Missas. Esses poderes compartilham as seguintes regras.\n • Rezar uma Missa exige uma hora e o gasto de materiais especiais (como velas, incensos, água benta...) no valor de T$ 25. \n • Uma Missa afeta um número máximo de pessoas igual a 1 + seu bônus de Sabedoria. Todas as pessoas precisam estar presentes durante toda a Missa. Um mesmo celebrante pode aplicar mais de um poder de Missa na mesma celebração. Cada poder adicional aumenta o custo da Missa em T$ 25 \n • Os efeitos de uma Missa duram um dia. Uma mesma criatura só pode receber os benefícios da mesma Missa uma vez por dia."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Doenças",
+    "items": [
+      {
+        "type": "item",
+        "name": " Regra doenças",
+        "description": "Uma doença pode ser transmitida por contato, ferimento, inalação ou ingestão. Veja “Venenos”, a  seguir, para as regras de cada tipo. Um personagem  exposto a uma doença deve fazer um teste de Fortitude (CD conforme a doença). Se falhar, é contaminado (mas ainda não sofre nenhum efeito). Um personagem contaminado deve repetir o teste  de Fortitude no início de cada dia. Se falhar, sofre o efeito da doença naquele dia. Se passar, não sofre o  efeito. Se passar por dois dias seguidos, estará curado. Algumas doenças possuem efeitos progressivos.  Se o personagem falhar no teste de Fortitude, sofre o  primeiro efeito. Se falhar dois testes seguidos, sofre o segundo efeito, e assim por diante. Um personagem  que tenha sofrido um efeito progressivo e passe no teste sofre o efeito anterior durante aquele dia."
+      },
+      {
+        
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "item",
+            "name": "Calafrios Diabólicos ",
+            "description": "Causa fraqueza e, em casos graves, coma e morte. \n Tipo: Ferimento \n CD: 20 \n Efeito: Fraco/debilitado/inconsciente/morte"
+          },          
+          {
+            "type": "item",
+            "name": "Febre do Riso",
+            "description": "Causa surtos de agitação e, em casos mais graves, loucura.\n Tipo: Inalação \n CD: 20 \n Efeito: Frustrado/esmorecido/confuso"
+          },
+          {
+            "type": "item",
+            "name": "Febre Mental ",
+            "description": " Causa enxaquecas e torpor \n Tipo: Inalação \n CD: 20 \n Efeito: Frustrado/esmorecido/alquebrado"
+          },
+          {
+            "type": "item",
+            "name": "Infecção do Esgoto ",
+            "description": "Transmitida por ratos gigantes e otyughs. Uma pessoa ferida que passe por lugares imundos também pode contrair esta doença.\n Tipo: Ferimento \n CD:15 \n Efeito: Fraco/debilitado"
+          },
+          {
+            "type": "item",
+            "name": "Maldição Pegajosa",
+            "description": "Transforma os órgãos internos da vítima em uma massa disforme. A vítima deve passar em três testes de Fortitude seguidos para se curar, em vez de apenas dois.\n Tipo: Contato \n CD: 20 \n Efeito: 1d12 de dano/2d12 de dano/4d12 de dano"
+          },
+          {
+            "type": "item",
+            "name": "Moléstia Demoníaca",
+            "description": " Causa danos internos e, em casos graves, sequelas permanentes.\n Tipo: Ferimento \n CD: 20 \n Efeito: 1d12 de dano/2d12 de dano/–1 de Constituição /morte"
+          },
+          {
+            "type": "item",
+            "name": "Tremores",
+            "description": "Causa convulsões, tremores e movimentos involuntários. \n Tipo: Contato \n CD: 15 \n Efeito: Contato"
+          },
+          {
+            "type": "item",
+            "name": "Varíola",
+            "description": "Esta doença causa febre e vômitos. Em casos graves, forma úlceras e erupções na pele, que deixam cicatrizes, e pode levar à morte. \n Tipo: Inalação \n CD: 20 \n Efeito: Enjoado/debilitado/–1 de Carisma/morte"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Montarias",
+    "items": [
+      {
+        "type": "item",
+        "name": "Regra montarias ",
+        "description": "  Montarias são um tipo específico de aliado. Elas usam as seguintes regras especiais. \n • Para usar um aliado montaria você precisa montar nele (uma ação de movimento) \n • Uma vez montado, você precisa gastar uma ação de movimento e fazer um teste de Cavalgar  (CD 10) por turno para guiar a montaria. Se passar, recebe os benefícios dela. Se falhar, perde a ação de movimento. Se falhar por 5 ou mais, cai da montaria  e sofre 1d6 pontos de dano. Se for treinado em Ca- valgar, você recebe os bônus da montaria automati- camente, sem precisar gastar a ação ou fazer o teste. • Se você sofrer dano, deve fazer um teste de  Cavalgar (CD igual ao dano). Se falhar, cai da mon- taria e sofre 1d6 pontos de dano. Se possuir o poder Ginete, você não precisa fazer esse teste. \n • O balanço da montaria em movimento torna  mais difícil atacar à distância (–2 em testes de ataque) e lançar magias (quando lança uma magia, precisa  fazer um teste de Vontade contra CD 15 + PM gasto; se falhar, a magia não funciona, mas os PM são gastos mesmo assim). Se possuir o poder Ginete, você não sofre nenhuma dessas penalidades. Montarias podem ser compradas ou recebidas  por habilidades de classe. No primeiro caso, são  sempre aliados iniciantes. No segundo, seu poder é definido pela habilidade em questão. Note que embora alguns animais sejam facil- mente encontrados à venda, como cavalos e trobos, outros são raros. Encontrar um majestoso grifo à venda é quase impossível! "
+      },  
+      {
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "item",
+            "name": "Cavalo",
+            "description": " O cavalo é a montaria mais comum do Reinado. \n **Iniciante:** seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (ape- nas para se deslocar). \n **Veterano:** como acima, mas seu deslocamento muda para 15m e você recebe posição elevada (+2 em ataques). \n**Mestre:** como acima, mas  você recebe uma segunda ação de movimento extra  por turno (novamente, apenas para se deslocar). Estas estatísticas também se aplicam a pôneis  (utilizados por personagens Pequenos)."
+          },
+          {
+            "type": "item",
+            "name": "Cão ",
+            "description": "Cães de porte adequado são montarias comuns para personagens Pequenos ou Minúsculos. \n **Iniciante:** seu deslocamento muda para 9m e você recebe faro  e uma ação de movimento extra por turno (apenas  para se deslocar). \n **Veterano:** como acima, mas seu  deslocamento muda para 12m e você recebe +2 em  Defesa. \n ** Mestre:** como acima; além disso, uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra derrubar como uma ação livre. "
+          },
+          {
+            "type": "item",
+            "name": "Lobo-das-cavernas",
+            "description": " Primos primitivos e maiores dos lobos comuns, lobos-das-cavernas são usados como montaria por goblinoides e aventureiros selvagens. \n**Iniciante:** seu  deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para  se deslocar). \n **Veterano:** como acima, mas seu deslo camento muda para 15m e você recebe +1d8 em  rolagens de dano corpo a corpo. \n **Mestre:** como acima; além disso, uma vez por rodada, quando acerta um ataque corpo a corpo, você pod e fazer a manobra derrubar como uma ação livre. Estas estatísticas também se aplicam a lobos  comuns (utilizados por personagens Pequenos). "
+          },
+          {
+            "type": "item",
+            "name": "Grifo",
+            "description": " Estas feras majestosas são muito cobiçadas por  heróis. \n **Iniciante:** um grifo iniciante é um filhote e não  pode ser usado como montaria, mas fornece +1d8 em rolagens de dano corpo a corpo. \n **Veterano:** como acima,  mas seu deslocamento muda para voo 18m. \n **Mestre:** como acima, mas você recebe uma ação de movimento extra por turno (apenas para se deslocar). "
+          },
+          {
+            "type": "item",
+            "name": "Gorlogg ",
+            "description": "  Esta besta primitiva é usada como montaria pelos mais selvagens. \n **Iniciante:** seu deslocamento muda para 12m e você recebe +1d6 em rolagens de dano corpo a corpo. \n **Veterano:** como acima, mas o bônus em rolagens de dano corpo a corpo muda para +1d10.\n **Mestre:** seu deslocamento muda para 15m e você  recebe +2d8 em rolagens de dano corpo a corpo."
+          },
+          {
+            "type": "item",
+            "name": "Trobo",
+            "description": " Usados como animais de carga e tração, mas também podem ser usados como montarias, trobos  também servem como montarias. \n **Iniciante:** seu des- locamento muda para 9m e você recebe uma ação de   movimento extra por turno (apenas para se deslocar) e  +1 em testes de resistência. \n **Veterano:** como acima, mas seu deslocamento muda para 12m e o bônus em testes de resistência muda para +2. \n **Mestre:** como acima, mas o bônus em testes de resistência muda para +5. "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "Venenos",
+    "items": [
+      {
+        "type": "item",
+        "name": " Regra Venenos",
+        "description": " Um personagem exposto a um veneno deve fazer um teste de Fortitude (CD conforme o veneno). Se falhar, sofre o efeito do veneno. Alguns venenos afetam a vítima mesmo que ela passe no teste; a versão reduzida do efeito estará entre parênteses. Alguns venenos não fazem efeito instantaneamente. Nesse caso, o personagem faz o teste de resistência quando o efeito acontece, não no momento da exposição. Outros venenos fazem efeito mais de uma vez; a vítima faz o teste de Fortitude cada vez que o efeito acontece e, mesmo que passe num teste, ainda precisará fazer os outros. Venenos são divididos pelo método de inoculação. Aplicar um veneno de contato ou ferimento em uma arma é uma ação padrão, com 10% de chance de exposição acidental (o poder Venefício ignora essa chance).O veneno permanece na arma até acertar um ataque ou até o fim da cena (o que acontecer primeiro). \n Contato. Inoculados via um ataque que acerte (mesmo que não cause dano) ou se a vítima toca um objeto envenenado. \n Ferimento. Inoculados via um ataque que acerte e cause pelo menos 1 ponto de dano. \n Inalação. Inoculados via respiração. Normalmente, são armazenados em frascos que podem ser arremessados em alcance curto. Quando o frasco se quebra, libera o veneno num cubo com 3m de lado. Todas as criaturas na área são expostas — prender a respiração não impede a inoculação, uma vez que o veneno pode entrar por canais lacrimais, membranas nasais e outras partes do corpo. \n Ingestão. Inoculados via ingestão de comida ou bebida. "
+      },
+      {
+        "type": "item",
+        "name": " Fabricando venenos",
+        "description": " Um personagem pode fabricar venenos usando Ofício (alquimia). A CD para fabricar um veneno é a mesma do teste de resistência dele. A matéria-prima custa um terço do preço, mas comprá-la pode ser difícil e/ou chamar a atenção de autoridades."
+      },
+      {
+        "type": "folder",
+        "name": "Livro básico",
+        "items": [
+          {
+            "type": "item",
+            "name": "Bile de dragão ",
+            "description": " \n Tipo: Contato \n CD: 25 \n Efeito: Vítima fica debilitada (fraca) \n Preço: T$ 1.000"
+          },
+          {
+            "type": "item",
+            "name": "Extrato de lótus negra  ",
+            "description": " \n Tipo: Contato \n CD: 25 \n Efeito: Vítima cai com –1 PV (10d6 de dano) \n Preço: T$ 3.000"
+          },
+          {
+            "type": "item",
+            "name": "Pomada bege ",
+            "description": " \n Tipo: Contato \n CD: 20 \n Efeito: Vítima fica imóvel (lenta) por 1d6 rodadas \n Preço: T$ 600"
+          },
+          {
+            "type": "item",
+            "name": "Essência de sombra ",
+            "description": " \n Tipo: Ferimento \n CD: 20 \n Efeito: Vítima fica fraca \n Preço: T$ 50"
+          },
+          {
+            "type": "item",
+            "name": "Peçonha cegante ",
+            "description": " \n Tipo: Ferimento \n CD: 20 \n Efeito: Vítima fica cega (ofuscada) \n Preço: T$ 600"
+          },
+          {
+            "type": "item",
+            "name": "Raiz paralisante ",
+            "description": " \n Tipo: Ferimento \n CD: 20 \n Efeito: Vítima fica paralisada (lenta) por 1d6 rodadas \n Preço: T$ 1.000"
+          },
+          {
+            "type": "item",
+            "name": "Veneno de cascavel  ",
+            "description": " \n Tipo: Ferimento \n CD: 15 \n Efeito: 1d12 de dano (metade do dano) \n Preço: T$ 50"
+          },
+          {
+            "type": "item",
+            "name": "Veneno de naja ",
+            "description": " \n Tipo: Ferimento \n CD: 20 \n Efeito: 1d12 de dano por rodada durante 1d4 rodadas (metade do dano) \n Preço: T$ 100"
+          },
+          {
+            "type": "item",
+            "name": "Gás da sonolência  ",
+            "description": " \n Tipo: Inalação \n CD: 25 \n Efeito: Vítima fica inconsciente (enjoada por 1 rodada)  \n Preço: T$ 1.000"
+          },
+          {
+            "type": "item",
+            "name": "Névoa da insanidade ",
+            "description": " \n Tipo: Inalação \n CD: 20 \n Efeito: Vítima fica confusa \n Preço: T$ 600"
+          },
+          {
+            "type": "item",
+            "name": "Arsênico ",
+            "description": " \n Tipo: Ingestão \n CD: 15 \n Efeito: 1d12 de dano por rodada durante 1d4 rodadas \n Preço: T$ 100"
+          },          
+          {
+            "type": "item",
+            "name": "Pó de lich ",
+            "description": "\n Tipo: Ingestão \n CD: 25 \n Efeito: 2d12 de dano por rodada durante 2d4 rodadas (metade do dano) \n Preço: T$ 1.000"
+          },
+          {
+            "type": "item",
+            "name": "Sonífero ",
+            "description": "\n Tipo: Ingestão \n CD: 20 \n Efeito: Vítima fica inconsciente (enjoada por 1 rodada) \n Preço: T$ 300"
           }
         ]
       }
