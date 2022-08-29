@@ -15,7 +15,7 @@ setInterceptor('d20ext', val => {
   return { ...val, environment: 'development' }
 })
 
-setInterceptor('d20', val => {
+setInterceptor('debug_d20', val => {
   console.log('T20 - D20 API FULLY INITIALIZED')
   val.environment = 'production'
   return T20.d20 = val
@@ -40,8 +40,8 @@ window.addEventListener('message', async ({ data }) => {
     const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
     Object.entries(T20.modules).map(async ([key, module]) => {
       await checkTimeout(() => iframe.find('.sheet-logo-tormenta').length)
-      module.onSheet(iframe, characterId)
       console.log(`T20 - ${key} onSheet()...`)
+      module.onSheet(iframe, characterId)
     })
   }
 })
@@ -60,10 +60,10 @@ function checkTimeout (checkFunction, callbackFunction, resolve) {
     return resolve && resolve()
   }
   if (resolve) {
-    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 50)
+    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 100)
   }
   return new Promise(resolve => {
-    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 50)
+    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 100)
   })
 }
 

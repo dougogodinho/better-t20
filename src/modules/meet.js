@@ -14,13 +14,12 @@ T20.modules.meet = {
     const dialog = T20.utils.showDialog('', iframe, null, {
       width: 300, buttons: null, padding: '0', class: 't20-meet-dialog'
     })
-    iframe.contents()
-    dialog.css({ top: '', bottom: 0, left: 0, zIndex: 100000 })
+    dialog.closest('.ui-dialog').css({ top: '', bottom: 0, left: 0, zIndex: 100000 })
   },
   async onLoad ($body) {
-    await checkTimeout(() => $('#player_displayname').val() && $('#helpsite').length)
-    const entry = $(`
-      <li id="helpsite" style="font-size: 14px">
+    await checkTimeout(() => $('[placeholder="Display Name"]').val() && $('#helpsite').length)
+    const entry = $(
+      `<li id="helpsite" style="font-size: 14px">
         <i class="fa fa-video"></i>
         <div class="submenu"><ul>
           <li class="toggle"><i class="fa fa-toggle-on"></i> Ligar/desligar video e audio</li>

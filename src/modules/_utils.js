@@ -57,7 +57,7 @@ T20.utils = {
     setTimeout(() => {
       form.find(':input:eq(0)').focus()
     }, 1500)
-    return modal
+    return dialog
   },
   showSelectDialog (title, options, callback) {
     const input = $('<input type="text" name="value" value="" placeholder="Digite para buscar...">')

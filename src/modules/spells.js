@@ -4,8 +4,8 @@ T20.modules.spells = {
   onLoad: $body => {},
   onSheet: ($iframe, characterId) => {
 
-    $iframe.find('.sheet-spells .sheet-default-title').after(T20.api.bootstrapFromHtml(`
-      <div class="sheet-default-title spell-cd">
+    $iframe.find('.sheet-spells .sheet-default-title').after(T20.api.bootstrapFromHtml(
+      `<div class="sheet-default-title spell-cd">
         <span class="spell-cd-item">CD</span>
         <input name="attr_magia_cd" class="spell-cd-item spell-cd-total" disabled="true"
                style="margin-right: 5px; border: 2px solid black;"

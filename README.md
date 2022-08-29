@@ -33,6 +33,7 @@ Alguns modulos a baixo não tem relação com Tormenta 20, então é bem prováv
 
 ### tokens
 - Atualize imagem do token e do personagem a partir de uma URL
+- Clique para sincronizar nome, vida, mana e defesa no token do personagem
 - *[em breve]* Corta quadrado, arredonda o token e aplica decoração (aro, cor, etc)
 
 ### tracker

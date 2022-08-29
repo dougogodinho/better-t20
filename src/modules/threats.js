@@ -88,8 +88,8 @@ T20.modules.threats = {
   },
   onLoad ($body) {
     const click = () => {
-      const html = $(`
-          <div style="height: 20px">
+      const html = $(
+        `<div style="height: 20px">
             <a style="float: right" class="btn add-sample">Inserir exemplo</a>
             <a style="float: right; margin-right: 5px" class="btn test-threat">Testar</a>
           </div>
